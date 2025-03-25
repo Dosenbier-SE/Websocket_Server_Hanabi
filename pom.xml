@@ -23,10 +23,10 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.organization>dosenbier-se</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<!-- HINZUFÜGEN -->
 		<java.version>17</java.version>
-		<sonar.organization>**COPY_FROM_SONAR_CLOUD**</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.coverage.jacoco.xmlReportPaths>
 			${project.build.directory}/reports/jacoco/jacocoTestReport/jacocoTestReport.xml
 		</sonar.coverage.jacoco.xmlReportPaths>
