@@ -21,6 +21,6 @@ public class MyService {
 
     @GetMapping("/game/draw")
     public String drawCard() {
-        return "";
+        return "sdfsdfs";
     }
 }
